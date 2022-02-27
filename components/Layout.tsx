@@ -8,7 +8,7 @@ interface Props {
 
 export default function Layout({ children, title }: Props) {
   return (
-    <div>
+    <div className="h-screen">
       <Head>
         <title>{title}</title>
       </Head>

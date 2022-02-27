@@ -1,6 +1,13 @@
 export type AmplifyDependentResourcesAttributes = {
+    "api": {
+        "nextjsamplify": {
+            "GraphQLAPIKeyOutput": "string",
+            "GraphQLAPIIdOutput": "string",
+            "GraphQLAPIEndpointOutput": "string"
+        }
+    },
     "auth": {
-        "nextjsamplify0eb84499": {
+        "nextjsamplify96bde939": {
             "IdentityPoolId": "string",
             "IdentityPoolName": "string",
             "UserPoolId": "string",
